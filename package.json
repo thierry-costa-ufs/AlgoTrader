@@ -1,0 +1,32 @@
+{
+  "name": "algotrader",
+  "version": "1.0.0",
+  "description": "Simulador de Mercado de Ações",
+  "type": "module",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "test:ordem": "node --loader ts-node/esm src/core/tests/ordem.test.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thierry-costa-ufs/AlgoTrader.git"
+  },
+  "keywords": [
+    "trading",
+    "typescript",
+    "order-matching"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thierry-costa-ufs/AlgoTrader/issues"
+  },
+  "homepage": "https://github.com/thierry-costa-ufs/AlgoTrader#readme",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
