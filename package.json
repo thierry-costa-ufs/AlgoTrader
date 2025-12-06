@@ -2,6 +2,7 @@
   "name": "algotrader",
   "version": "1.0.0",
   "description": "Simulador de Mercado de Ações",
+  "type": "module",
   "main": "src/main.ts",
   "scripts": {
     "start": "ts-node src/main.ts",
@@ -18,7 +19,6 @@
   ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/thierry-costa-ufs/AlgoTrader/issues"
   },
