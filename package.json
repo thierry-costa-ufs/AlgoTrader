@@ -6,6 +6,7 @@
   "main": "src/main.ts",
   "scripts": {
     "start": "ts-node src/main.ts",
+    "test:ordem": "node --loader ts-node/esm src/core/tests/ordem.test.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
