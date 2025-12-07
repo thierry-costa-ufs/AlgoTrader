@@ -1,4 +1,4 @@
-#  Função Detalhada do Marques: Engenheiro do Motor de Matching - Sprint 1
+#  Tarefas Detalhadas do Marques: Engenheiro do Motor de Matching - Sprint 1
 
 O principal desafio do Marques é garantir que as ordens sejam armazenadas e acessadas da maneira mais rápida e eficiente possível, pois em um mercado de ações simulado, a velocidade é tudo.
 1. Construir a Estrutura de Dados Central (O Order Book)
