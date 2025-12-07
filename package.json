@@ -7,7 +7,6 @@
   "scripts": {
     "start": "ts-node src/main.ts",
     "test:ordem": "node --loader ts-node/esm src/core/tests/ordem.test.ts",
-    "test:idgerador": "node --loader ts-node/esm src/core/tests/idgerador.test.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,8 +28,5 @@
     "@types/node": "^24.10.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
-  },
-  "dependencies": {
-    "nanoid": "^3.3.11"
   }
 }
