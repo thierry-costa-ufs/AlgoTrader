@@ -18,4 +18,4 @@ yarn-error.log*
 
 # IDEs (Visual Studio Code, JetBrains)
 .vscode/
-.idea/ 
+.idea/
